@@ -11,6 +11,23 @@ a {
   text-decoration: none;
 }
 
+input, button {
+  border-radius: 0;
+}
+
+.btn {
+  border-radius: 0;
+}
+
+.navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: transparent;
+}
+
 * {
   box-sizing: border-box;
 }

@@ -1,0 +1,17 @@
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96.32 95.88">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a8a8a8;
+      }
+
+      .cls-2 {
+        fill: #016380;
+      }
+    </style>
+  </defs>
+  <title>bola_imcyc</title>
+  <path class="cls-1" d="M36,38.93a18.38,18.38,0,0,1,28.89,0L90.73,24a48.2,48.2,0,0,0-80.62,0Z" transform="translate(-2.24 -2.26)"/>
+  <path class="cls-1" d="M47.75,68.38A18.27,18.27,0,0,1,33.33,43.49L7.46,28.62A47.84,47.84,0,0,0,47.75,98.13V68.38Z" transform="translate(-2.24 -2.26)"/>
+  <path class="cls-2" d="M93.35,28.62L67.5,43.49A18.27,18.27,0,0,1,53.06,68.38V98.13A48,48,0,0,0,98.57,50.27a47.45,47.45,0,0,0-5.22-21.65" transform="translate(-2.24 -2.26)"/>
+</svg>
