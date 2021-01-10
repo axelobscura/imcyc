@@ -31,7 +31,7 @@ export default function MenuPublico(){
         </Nav>
         <Form inline>
           <Form.Control type="text" placeholder="Buscar contenidos" />
-          <Button variant="outline-success">BUSCAR</Button>
+          <Button variant="outline-success">BUSCAR POR TEMA</Button>
         </Form>
       </Navbar.Collapse>
     </Navbar>
