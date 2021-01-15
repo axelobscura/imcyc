@@ -8,17 +8,15 @@ export default function Layout({children}){
   return(
     <div className={styles.container}>
       <Head>
-        <title>INSTITUTO MEXICANO DEL CEMENTO Y DEL CONCRETO A.C.</title>
+        <title>WEBINARS EN CONCRETO | INSTITUTO MEXICANO DEL CEMENTO Y DEL CONCRETO A.C.</title>
         <link rel="icon" type="image/png" href="favicon.png" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css"></link>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;900&display=swap" rel="stylesheet"></link>
         <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;700&display=swap" rel="stylesheet"></link>
       </Head>
-
-      <MenuPublico />
-
-      {children}
-
+        <MenuPublico />
+        {children}
       <Footer />
     </div>
   )

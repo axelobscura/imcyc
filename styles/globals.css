@@ -26,6 +26,34 @@ input, button {
   left: 0;
   right: 0;
   background: transparent;
+  padding: 4px 10px !important;
+}
+
+.navbar-expand-lg {
+  background: transparent;
+}
+
+.nav-link {
+  font-size: 0.7em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.form-control {
+  font-size: 0.7em !important;
+  border-radius: 0 !important;
+  border: none !important;
+  background: #f2f2f2 !important;
+}
+
+.btn {
+  border-radius: 0 !important;
+  font-size: 0.9em !important;
+}
+
+.btn.btn-primary {
+  background: #016380;
+  border: 1px solid #013241;
 }
 
 * {

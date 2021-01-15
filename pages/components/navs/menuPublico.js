@@ -19,19 +19,18 @@ export default function MenuPublico(){
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#link">Link</Nav.Link>
-          <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-            <NavDropdown.Divider />
-            <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-          </NavDropdown>
+          <Nav.Link href="#home">QUIÉNES SOMOS</Nav.Link>
+          <Nav.Link href="#link">CURSOS</Nav.Link>
+          <Nav.Link href="#link">GERENCIA TÉCNICA</Nav.Link>
+          <Nav.Link href="#link">HISTORIA</Nav.Link>
+          <Nav.Link href="#link">MEMBRESÍAS</Nav.Link>
+          <Nav.Link href="#link">DIRECTORIO</Nav.Link>
+          <Nav.Link href="#link">TIENDA</Nav.Link>
+          <Nav.Link href="#link">UBICACIÓN</Nav.Link>
         </Nav>
         <Form inline>
-          <Form.Control type="text" placeholder="Buscar contenidos" />
-          <Button variant="outline-success">BUSCAR POR TEMA</Button>
+          <Form.Control type="text" placeholder="BUSCAR CONTENIDOS" />
+          <Button><span class="lnr lnr-magnifier"></span></Button>
         </Form>
       </Navbar.Collapse>
     </Navbar>
