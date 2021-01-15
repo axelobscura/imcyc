@@ -21,12 +21,14 @@ export default function MenuPublico(){
         <Nav className="mr-auto">
           <Nav.Link href="#home">QUIÉNES SOMOS</Nav.Link>
           <Nav.Link href="#link">CURSOS</Nav.Link>
+          <Nav.Link href="#link">WEBINARS</Nav.Link>
           <Nav.Link href="#link">GERENCIA TÉCNICA</Nav.Link>
           <Nav.Link href="#link">HISTORIA</Nav.Link>
           <Nav.Link href="#link">MEMBRESÍAS</Nav.Link>
           <Nav.Link href="#link">DIRECTORIO</Nav.Link>
           <Nav.Link href="#link">TIENDA</Nav.Link>
           <Nav.Link href="#link">UBICACIÓN</Nav.Link>
+          <Nav.Link href="#link">APS</Nav.Link>
         </Nav>
         <Form inline>
           <Form.Control type="text" placeholder="BUSCAR CONTENIDOS" />
