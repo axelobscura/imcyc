@@ -32,7 +32,7 @@ export default function MenuPublico(){
         </Nav>
         <Form inline>
           <Form.Control type="text" placeholder="BUSCAR CONTENIDOS" />
-          <Button><span class="lnr lnr-magnifier"></span></Button>
+          <Button><span className="lnr lnr-magnifier"></span></Button>
         </Form>
       </Navbar.Collapse>
     </Navbar>

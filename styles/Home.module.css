@@ -122,6 +122,14 @@
   font-size: 0.5rem;
 }
 
+h1.entrada {
+  font-weight: 100;
+}
+
+h2.entrada {
+  font-weight: 900;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;

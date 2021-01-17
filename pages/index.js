@@ -5,7 +5,8 @@ export default function Home() {
   return (
     <Layout>
       <main className={styles.main}>
-        HOME
+        <h1 className={styles.entrada}>INSTITUTO MEXICANO DEL CEMENTO Y DEL CONCRETO A.C.</h1>
+        <h2 className={styles.entrada}>COMPARTIR EL CONOCIMIENTO</h2>
       </main>
     </Layout>
   )
