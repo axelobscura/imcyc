@@ -123,11 +123,12 @@
 }
 
 h1.entrada {
-  font-weight: 100;
+  font-weight: 900;
+  text-align: center;
 }
 
 h2.entrada {
-  font-weight: 900;
+  font-weight: 100;
 }
 
 @media (max-width: 600px) {
