@@ -28,7 +28,7 @@ export default function MenuPublico(){
           <Nav.Link href="#link">DIRECTORIO</Nav.Link>
           <Nav.Link href="#link">TIENDA</Nav.Link>
           <Nav.Link href="#link">UBICACIÓN</Nav.Link>
-          <Nav.Link href="#link">APS</Nav.Link>
+          <Nav.Link href="#link">APLICACIONES</Nav.Link>
         </Nav>
         <Form inline>
           <Form.Control type="text" placeholder="BUSCAR CONTENIDOS" />
