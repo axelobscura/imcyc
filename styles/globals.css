@@ -6,6 +6,20 @@ body {
   
 }
 
+.wrapper {
+  background: #fff;
+  height: 100vh;
+  align-items: stretch;
+  flex-grow: 1;
+  /*
+  background: url('/images/bg.jpeg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  */
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -27,6 +41,7 @@ input, button {
   right: 0;
   background: transparent;
   padding: 4px 10px !important;
+  flex-shrink: 0;
 }
 
 .navbar-expand-lg {
@@ -37,6 +52,34 @@ input, button {
   font-size: 0.6em;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
+}
+
+.main {
+  padding: 5rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  background: #FFF;
+}
+
+.footer {
+  width: 100%;
+  border-top: 1px solid #eaeaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+.footer p {
+  margin: 0;
+  padding: 5px;
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .form-control {
