@@ -7,7 +7,6 @@ body {
 }
 
 .wrapper {
-  background: #fff;
   height: 100vh;
   align-items: stretch;
   flex-grow: 1;
@@ -73,6 +72,10 @@ input, button {
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
+  position: fixed;
+  bottom: 0;
+  background: rgba(255,255,255,0.8);
+  box-shadow: 0 0 10px #111111;
 }
 
 .footer p {
