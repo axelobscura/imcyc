@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: url('/images/bg.jpeg') no-repeat center center fixed; 
+  background: url('/images/bg2.jpeg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -132,12 +132,12 @@
 h1.entrada {
   font-weight: 900;
   text-align: center;
-  color: #fafafa;
+  color: #026380;
 }
 
 h2.entrada {
   font-weight: 100;
-  color: #fff;
+  color: #111;
 }
 
 @media (max-width: 600px) {
