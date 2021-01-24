@@ -19,7 +19,7 @@ export default function MenuPublico(){
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link href="#home">QUIÉNES SOMOS</Nav.Link>
+          <Nav.Link href="/quienes-somos">QUIÉNES SOMOS</Nav.Link>
           <Nav.Link href="#link">CURSOS</Nav.Link>
           <Nav.Link href="#link">WEBINARS</Nav.Link>
           <Nav.Link href="#link">GERENCIA TÉCNICA</Nav.Link>
