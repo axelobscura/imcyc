@@ -1,4 +1,5 @@
 import Navbar from 'react-bootstrap/Navbar'
+import Link from 'next/link'
 import Nav from 'react-bootstrap/Nav'
 import NavDropdown from 'react-bootstrap/NavDropdown'
 import Form from 'react-bootstrap/Form'
@@ -8,13 +9,13 @@ import Image from 'next/image'
 export default function MenuPublico(){
   return(
     <Navbar expand="lg">
-      <Navbar.Brand href="#home">
-        <Image
-          src="/images/logo_extendido.svg"
-          alt="INSTITUTO MEXICANO DEL CEMENTO Y DEL CONCRETO A.C."
-          width={150}
-          height={50}
-        />
+      <Navbar.Brand href="/">
+          <Image
+            src="/images/logo_extendido.svg"
+            alt="INSTITUTO MEXICANO DEL CEMENTO Y DEL CONCRETO A.C."
+            width={150}
+            height={50}
+          />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">

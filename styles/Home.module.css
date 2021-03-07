@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: url('/images/bg2.jpeg') no-repeat center center fixed; 
+  
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -21,12 +21,13 @@
   align-items: center;
   width: 100vw;
   height: 90vh;
-  /*background: #FFF;
-  background: url('/images/bg.jpeg') no-repeat center center fixed; 
+  background: url('/images/bg2.jpeg') no-repeat center center fixed; 
+  background: #FFF;
+  /*background: url('/images/bg.jpeg') no-repeat center center fixed; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;*/
+  background-size: cover;
 }
 
 .footer {
@@ -41,7 +42,15 @@
   box-shadow: 0 0 10px #000000;
 }
 
-
+.inicio {
+  background: url('/images/bg2.jpeg') no-repeat center center fixed; 
+  background: #FFF;
+  /*background: url('/images/bg.jpeg') no-repeat center center fixed; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 .asociados {
   padding: 5px;;
