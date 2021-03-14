@@ -16,7 +16,7 @@
       ":items": {
         "titulo": {":type": "line"},
         "fecha": {":type": "line"},
-        "content": {":type": "text", ":richtext": true}
+        "contenido": {":type": "text", ":richtext": true}
       }
     }
   }
