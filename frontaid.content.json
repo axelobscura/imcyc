@@ -25,5 +25,12 @@
       "path": "/baz",
       "content": "<p><strong>Baz</strong> content...</p>"
     }
+  ],
+  "cursos": [
+    {
+      "titulo": "SUPERVISOR ESPECIALIZADO EN OBRAS DE CONCRETO",
+      "fecha": "31 DE MARZO Y 1 ABRIL DEL 2020",
+      "content": "<h4><strong>OBJETIVO</strong></h4><p>Certificar que el aspirante posee los conocimientos sobre tecnología del concreto, especificaciones y tolerancias de armados, cimbras, recubrimientos e insertos, para ejecutar la secuencia correcta de supervisión antes, durante y después de la colocación del concreto, así como la escolaridad y la experiencia en la construcción con concreto requeridas para ser un Supervisor en obras de concreto.</p><h4><strong>TEMARIO</strong></h4><h2><strong>I. SUPERVISIÓN PREVIA A LA COLOCACIÓN DEL CONCRETO</strong></h2><h2><strong>II. SUPERVISIÓN DURANTE LA COLOCACIÓN DEL CONCRETO</strong></h2><h2><strong>III. SUPERVISIÓN DESPUÉS DE LA COLOCACIÓN DEL CONCRETO</strong></h2><p><br></p>"
+    }
   ]
 }
