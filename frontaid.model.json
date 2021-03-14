@@ -15,7 +15,7 @@
     "cursos": {
       ":items": {
         "titulo": {":type": "line"},
-        "fecha": {":type": "datetime"},
+        "fecha": {":type": "date"},
         "content": {":type": "text", ":richtext": true}
       }
     }
