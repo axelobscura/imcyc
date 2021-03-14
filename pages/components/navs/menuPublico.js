@@ -21,7 +21,7 @@ export default function MenuPublico(){
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
           <Nav.Link href="/quienes-somos">QUIÉNES SOMOS</Nav.Link>
-          <Nav.Link href="#link">CURSOS</Nav.Link>
+          <Nav.Link href="/cursos">CURSOS</Nav.Link>
           <Nav.Link href="#link">WEBINARS</Nav.Link>
           <Nav.Link href="#link">GERENCIA TÉCNICA</Nav.Link>
           <Nav.Link href="#link">HISTORIA</Nav.Link>
