@@ -14,7 +14,8 @@ export default function Cursos(){
                     return(
                         <>
                             {curso.titulo}
-                            <div dangerouslySetInnerHTML={{__html: content.curso.contenido}}></div>
+                            {curso.fecha}
+                            <div dangerouslySetInnerHTML={{ __html: curso.contenido }} />
                         </>
                     )
                 })}
