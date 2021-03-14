@@ -11,5 +11,12 @@
         "path": {":type": "line"},
         "content": {":type": "text", ":richtext": true}
       }
+    },
+    "cursos": {
+      ":items": {
+        "titulo": {":type": "line"},
+        "fecha": {":type": "date"},
+        "content": {":type": "text", ":richtext": true}
+      }
     }
   }
