@@ -12,11 +12,11 @@ export default function Cursos(){
                 </div>
                 {content.cursos.map((curso, i) => {
                     return(
-                        <>
+                        <div key={i}>
                             {curso.titulo}
                             {curso.fecha}
                             <div dangerouslySetInnerHTML={{ __html: curso.contenido }} />
-                        </>
+                        </div>
                     )
                 })}
             </main>
