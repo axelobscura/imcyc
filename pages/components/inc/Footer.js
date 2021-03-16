@@ -5,11 +5,11 @@ export default function Footer () {
     <footer className="footer">
       <div className="asociados">
         <img src="/images/logo-cemex.png" alt="WEBINARS EN CONCRETO INSTITUTO MEXICANO DEL CEMENTO Y DEL CONCRETO A.C." className="asociado uno" />
-        <img src="/images/logo-cementos-moctezuma-blue.png" alt="WEBINARS EN CONCRETO INSTITUTO MEXICANO DEL CEMENTO Y DEL CONCRETO A.C." className="asociado dos" style={{ width: '140px'}} />
-        <img src="/images/logo-fortaleza.png" alt="WEBINARS EN CONCRETO INSTITUTO MEXICANO DEL CEMENTO Y DEL CONCRETO A.C." className="asociado tres" style={{ width: '50px'}} />
-        <img src="/images/logo-gcc.png" alt="WEBINARS EN CONCRETO INSTITUTO MEXICANO DEL CEMENTO Y DEL CONCRETO A.C." className="asociado cuatro" style={{ width: '80px'}} />
-        <img src="/images/logo-holcim.png" alt="WEBINARS EN CONCRETO INSTITUTO MEXICANO DEL CEMENTO Y DEL CONCRETO A.C." className="asociado cinco" style={{ width: '70px'}} />
-        <img src="/images/logo-cruzazul.png" alt="WEBINARS EN CONCRETO INSTITUTO MEXICANO DEL CEMENTO Y DEL CONCRETO A.C." className="asociado seis" style={{ width: '75px'}} />
+        <img src="/images/logo-cementos-moctezuma-blue.png" alt="WEBINARS EN CONCRETO INSTITUTO MEXICANO DEL CEMENTO Y DEL CONCRETO A.C." className="asociado dos" />
+        <img src="/images/logo-fortaleza.png" alt="WEBINARS EN CONCRETO INSTITUTO MEXICANO DEL CEMENTO Y DEL CONCRETO A.C." className="asociado tres" />
+        <img src="/images/logo-gcc.png" alt="WEBINARS EN CONCRETO INSTITUTO MEXICANO DEL CEMENTO Y DEL CONCRETO A.C." className="asociado cuatro" />
+        <img src="/images/logo-holcim.png" alt="WEBINARS EN CONCRETO INSTITUTO MEXICANO DEL CEMENTO Y DEL CONCRETO A.C." className="asociado cinco" />
+        <img src="/images/logo-cruzazul.png" alt="WEBINARS EN CONCRETO INSTITUTO MEXICANO DEL CEMENTO Y DEL CONCRETO A.C." className="asociado seis" />
       </div>
       <p>© 1959 - 2021 Instituto Mexicano del Cemento y del Concreto A.C.</p>
       <style jsx>{`

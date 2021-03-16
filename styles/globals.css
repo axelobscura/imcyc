@@ -134,16 +134,38 @@ input, button {
   width: 95px;
 }
 
+.footer img.asociado.dos {
+  width: 140px;
+}
+
+.footer img.asociado.tres {
+  width: 50px;
+}
+
+.footer img.asociado.cuatro {
+  width: 80px;
+}
+
+.footer img.asociado.cinco {
+  width: 70px;
+}
+
+.footer img.asociado.seis {
+  width: 75px;
+}
+
 @media (max-width: 600px) {
   .quienesSomos {
     margin-top: 200px;
-    margin-bottom: 200px;;
+    margin-bottom: 200px;
   }
   .asociados {
     flex-direction: column;
     width: 100%;
   }
-  .footer img.asociado.uno {
-    width: 100%;
+  .footer img.asociado.uno, .footer img.asociado.dos, .footer img.asociado.tres, .footer img.asociado.cuatro, .footer img.asociado.cinco, .footer img.asociado.seis {
+    width: 15%;
+    padding: 0 10px;
+    margin: 2px;
   }
 }
