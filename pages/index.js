@@ -2,11 +2,17 @@ import Layout from './components/Layout';
 import Grid from './components/grid/Grid';
 import styles from '../styles/Home.module.css';
 
+import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
+
 export default function Home() {
   return (
     <Layout className={styles.inicio}>
-      <Grid />
+      
+      
       <main className={styles.main}>
+      
         <div className={styles.cuadros}>
           <div>
             <h1 className={styles.entrada}>INSTITUTO MEXICANO DEL CEMENTO Y DEL CONCRETO A.C.</h1>
@@ -17,6 +23,13 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <Container>
+        <Row>
+          <Col>
+            <Grid />
+          </Col>
+        </Row>
+      </Container>
       </main>
     </Layout>
   )
