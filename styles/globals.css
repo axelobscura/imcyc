@@ -130,9 +130,20 @@ input, button {
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 600px) {
+.footer img.asociado.uno {
+  width: 95px;
+}
+
+@media (max-width: 600px) {
   .quienesSomos {
     margin-top: 200px;
     margin-bottom: 200px;;
+  }
+  .asociados {
+    flex-direction: column;
+    width: 100%;
+  }
+  .footer img.asociado.uno {
+    width: 100%;
   }
 }

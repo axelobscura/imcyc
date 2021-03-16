@@ -12,7 +12,7 @@ export default function Home() {
       
       
       <main className={styles.main}>
-      
+        {/* 
         <div className={styles.cuadros}>
           <div>
             <h1 className={styles.entrada}>INSTITUTO MEXICANO DEL CEMENTO Y DEL CONCRETO A.C.</h1>
@@ -23,7 +23,8 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <Container>
+        */}
+        <Container fluid={true}>
         <Row>
           <Col>
             <Grid />
