@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Layout from './components/Layout'
 import content from '../frontaid.content';
 import path from 'path';
@@ -17,7 +18,7 @@ export default function Cursos(props){
                 <div>
                     <ul>
                         {products.map((product) => (
-                            <li key={product.id}>{product.title}</li>
+                            <li key={product.id}><Link href={`/${product.id}`}>{product.title}</Link></li>
                         ))}
                     </ul>
                 </div>
