@@ -1,5 +1,7 @@
 import Layout from './components/Layout'
 import content from '../frontaid.content';
+import path from 'path';
+import fs from 'fs/promises';
 
 import styles from '../styles/Home.module.css'
 
@@ -37,9 +39,13 @@ export default function Cursos(props){
 }
 
 export async function getStaticProps(){
+    const filePath = path.join(process.cwd(), 'data', 'dummy-backend.json');
+    const jsonData = await fs.readFile(filePath);
+    const data = JSON.parse(jsonData);
+
     return {
         props: {
-            products: [{ id: 'p1', title: 'Product 1'}]
+            products: data.products
         }
     }
 }
