@@ -37,11 +37,23 @@ export default function Cursos(props){
     )
 }
 
-export async function getStaticProps(){
+export async function getStaticProps(context){
     const fs = require('fs/promises'); // LOOK HERE
     const filePath = path.join(process.cwd(), 'data', 'dummy-backend.json');
     const jsonData = await fs.readFile(filePath);
     const data = JSON.parse(jsonData);
+
+    if(!data){
+        return{
+            redirect: {
+                destination: '/'
+            }
+        }
+    }
+
+    if(data.products === 0){
+        return{ notFound: true }
+    }
 
     return {
         props: {
