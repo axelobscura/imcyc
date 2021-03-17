@@ -1,7 +1,6 @@
 import Layout from './components/Layout'
 import content from '../frontaid.content';
 import path from 'path';
-import fs from 'fs/promises';
 
 import styles from '../styles/Home.module.css'
 
@@ -38,7 +37,8 @@ export default function Cursos(props){
     )
 }
 
-export async function getServerSideProps(){
+export async function getStaticProps(){
+    const fs = require('fs/promises'); // LOOK HERE
     const filePath = path.join(process.cwd(), 'data', 'dummy-backend.json');
     const jsonData = await fs.readFile(filePath);
     const data = JSON.parse(jsonData);
@@ -46,6 +46,7 @@ export async function getServerSideProps(){
     return {
         props: {
             products: data.products
-        }
+        },
+        revalidate: 10
     }
 }
