@@ -41,6 +41,7 @@ export async function getStaticPaths(){
     paths: [
       { params: { cid: 'p1'} }
     ],
+    //fallback: 'blocking'
     fallback: true
   }
 }
