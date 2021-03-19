@@ -16,7 +16,7 @@ export default function Cursos(props){
                 <h2>{content.title}</h2>
                 </div>
                 <div>
-                    <ul>
+                    <ul className="tester">
                         {products.map((product) => (
                             <li key={product.id}><Link href={`/${product.id}`}>{product.title}</Link></li>
                         ))}
