@@ -6,9 +6,7 @@ import path from 'path';
 import styles from '../styles/Home.module.css'
 
 export default function Cursos(props){
-
     const { products } = props;
-
     return(
         <Layout>
             <main className={styles.main}>
