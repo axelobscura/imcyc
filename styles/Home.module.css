@@ -13,14 +13,15 @@
 }
 
 .main {
-  padding: 5rem 2rem;
+  padding: 0;
+  margin: 0;
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100vw;
-  height: 90vh;
+  padding-top: 10%;
   /*background: #FFF;
   background: url('/images/bg.jpeg') no-repeat center center fixed; 
   -webkit-background-size: cover;

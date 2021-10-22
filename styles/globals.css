@@ -64,7 +64,7 @@ input, button {
 }
 
 .footer {
-  width: 100%;
+  width: 100vw;
   border-top: 1px solid #eaeaea;
   display: flex;
   justify-content: center;
