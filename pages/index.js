@@ -9,8 +9,6 @@ import Col from 'react-bootstrap/Col'
 export default function Home() {
   return (
     <Layout className={styles.inicio}>
-      
-      
       <main className={styles.main}>
         {/* 
         <div className={styles.cuadros}>
@@ -26,7 +24,7 @@ export default function Home() {
         */}
         <Container fluid={true}>
         <Row>
-          <Col>
+          <Col className="m-0 p-0">
             <Grid />
           </Col>
         </Row>
