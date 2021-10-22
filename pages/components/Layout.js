@@ -8,7 +8,7 @@ export default function Layout({children}){
   return(
     <div className={styles.container}>
       <Head>
-        <title>WEBINARS EN CONCRETO | INSTITUTO MEXICANO DEL CEMENTO Y DEL CONCRETO A.C.</title>
+        <title>INSTITUTO MEXICANO DEL CEMENTO Y DEL CONCRETO A.C. | WEBINARS EN CONCRETO</title>
         <link rel="icon" type="image/png" href="favicon.png" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css"></link>
