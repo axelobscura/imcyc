@@ -26,17 +26,7 @@ class Cards extends Component {
     const cardData = CardData();
     return (
       <section>
-      {
-        cardData.map((card, i) => {
-          return (
-            <div className="card" id="card" style={this.props.cardStyle} key={i}>
-              <p className="title">{card.title}</p>
-              <p className="desc">{card.desc}</p>
-              <a href="#"><img src={card.url} /></a>
-            </div>
-          )
-        })
-      }
+      
       </section>
     )
   }
