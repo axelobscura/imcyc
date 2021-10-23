@@ -11,7 +11,7 @@ export default function Cursos(props){
         <Layout>
             <main className={styles.main}>
                 <div>
-                <h2>-{content.title}-</h2>
+                <h2>{content.title}</h2>
                 </div>
                 {/* 
                 <div>
